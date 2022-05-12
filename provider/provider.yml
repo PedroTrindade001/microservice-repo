@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    password: Root1234@
+    url: jdbc:mysql://localhost:3306/provider?createDatabaseIfNotExist=True
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
